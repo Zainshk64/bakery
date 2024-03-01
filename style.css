@@ -266,6 +266,8 @@ button:hover::after{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    height: auto;
+    /* background-color: aqua; */
 }
 .lef{
     width: 50%;
@@ -273,6 +275,10 @@ button:hover::after{
 .lef p i{
     margin-right: 5px;
     color: rgb(229, 140, 77);
+}
+.lef p{
+    font-family: "Architects Daughter", cursive;
+
 }
 .rig{
     display: flex;
@@ -297,10 +303,7 @@ button:hover::after{
     color:rgb(25, 160, 245)
 
 }
-abbr{
-    border-bottom: none !important;
-    cursor: default !important;
-  }
+
 @media screen and (max-width:800px) {
     .main{
         /* margin-top: 20%; */
@@ -315,7 +318,7 @@ abbr{
    
     .main .m2 img{
         height: 420px;
-        margin-top: 30%;
+        margin-top: 15%;
         margin-left: 20px;
     }
     .bgimg{
@@ -325,6 +328,13 @@ abbr{
     .m1  img{
         transform: rotate(180deg);
     }
+    .lef p{
+        font-size: 1rcap;
+    }
+    .foot{
+        margin-top: -10%;
+    }
+   
     
 
 
