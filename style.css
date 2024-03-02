@@ -11,6 +11,9 @@ font-family: "Comic Neue", cursive; */
     padding: 0%;
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .homeimg{
     background: url(./img/home-bg.jpg) no-repeat;
@@ -338,5 +341,254 @@ button:hover::after{
     
 
 
+    
+}
+/* sectin 2 */
+.news
+{
+    height: auto;
+    background-color: #212529;
+    
+}
+#news{
+    padding-top:5%;
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    font-size: 4rcap;
+    padding-top: 3%;
+}
+h2{
+    font-family: "Architects Daughter", cursive;
+    color:rgb(229, 140, 77)
+
+}
+.b1{
+    text-align: center;
+    width: 20%;
+}
+.b1 p{
+    padding:  4% 0;
+    font-family: "Handlee", cursive;
+ 
+    margin: auto;
+
+}
+.bflex{
+    display: flex;
+    margin-top: 4%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.b1 img{
+    margin: 3% 0;
+    transition: .4s ease;
+}
+#b1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    width: 23%;
+}
+#b1 img{
+    transform: rotate(-10deg);
+    
+}
+#b1 .text{
+    margin: 3%;
+}
+#b1 .text p{
+    width: auto;
+}
+.b1:hover h2{
+    color:rgba(229, 140, 77, 0.698);
+}
+.btn
+{
+    text-align: center;
+}
+#button{
+    height: 50px;
+    width: 160px;
+    background-color: rgb(229, 140, 77);
+    cursor: pointer;
+    color: black;
+    /* font-family: "Architects Daughter", cursive;    */
+    font-family: "Handlee", cursive; 
+    font-size: 1rem;
+    overflow: hidden;
+    border: none;
+}
+#button:hover{
+    background-color: rgba(229, 140, 77, 0.626);
+}
+
+@media screen and (max-width:790px) {
+
+    .b1{
+        width: 100%;
+        margin: 10% 0;
+    }
+    .b1 p{
+        width: 45%;
+    }
+    .news
+    {
+        height: auto;
+        /* padding-top: 20%; */
+    }
+    #b1{
+        flex-direction: column;
+        width: 60%;
+
+    }
+    .b1 img{
+        height: 200px;
+    }
+    #news{
+        padding-top: 30%;
+
+    }
+
+
+
+
+    
+}
+/* about */
+.about{
+    height: auto;
+    background-color: #2f3234;
+}
+.aboutus{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.d2 img{
+    transition: .3s ease;
+    
+}
+.d2 img:hover{
+    transform: rotate(0deg) scale(1.04);
+
+}
+.d1 h1{
+    font-size: 4rcap;
+    font-weight: 900;
+
+}
+.d1{
+    width: 35%;
+    /* transition: .3s ease; */
+}
+.d1 img{
+    transition: .3s ease;
+
+    float: right;
+}
+.d1 p{
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+
+}
+@media screen and (max-width:800px) {
+    .d2{
+        /* width: 100%; */
+        margin: 10% 0;
+    }
+    .d2 img{
+        height: 305px;
+    }
+    .d1{
+        width: 80%;
+        margin:  10% 0;
+    }
+    .d1 h1{
+        font-size: 3.5rcap;
+    }
+    .d1 p{
+        font-size: 1.2rcap;
+    }
+
+    
+}
+
+/* favourite */
+.fav{
+    height: auto;
+    background-color: #000000e7;
+
+}
+.card1{
+    height: 320px;
+    width: 300px;
+    transition: .4s ease-in;
+}
+.card1:hover{
+    border: 1px solid orange;
+    
+}
+.card1 img{
+    margin: -15% 10% 0;
+    transform: rotate(0deg) ;
+    transition:  transform .3s ease;
+    
+}
+.card1:hover img{
+    transform: scale(1.1);
+}
+
+.card1 p{
+    font-family: "Architects Daughter", cursive;
+}
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plus p{
+    cursor: pointer;
+    width: 35px;
+    text-align: center;
+    background-color: rgb(229, 140, 77);
+}
+.plus p:hover i{
+    color: black;
+
+}
+.cardflex{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.but{
+    
+    /* overflow: hidden; */
+    /* text-align: center; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.but h1{
+    visibility: hidden;
+}
+#fav{
+    padding-top: 6%;
+}
+@media screen and (max-width:800px) {
+    .card1{
+        margin-top: 40%;
+    }
+    #fav{
+        padding-top: 30%;
+    }
     
 }
