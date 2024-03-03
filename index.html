@@ -25,6 +25,7 @@
         <script src="scroll.js"></script>
 
 
+
 </head>
 
 <body>
@@ -46,9 +47,10 @@
                 </label>
 
                 <div class="right">
-                    <a href="#home" style="    color: rgb(229, 140, 77);
+
+                    <a href="#home"  style="    color: rgb(229, 140, 77);
                     ">Home</a>
-                    <a href="#news">News</a>
+                    <a href="#news" >News</a>
                     <a href="#about">About Us</a>
                     <a href="#fav">Favourite</a>
                     <a href="#cont">Location</a>
@@ -65,8 +67,8 @@
             </nav><br>
 
             <div class="main ">
-                <div class="m1 reveal">
-                    <h1>select the best <br> quality breads</h1><br>
+                <div class="m1">
+                    <h1 class="headline">select the best <br> quality breads</h1><br>
                     <button>Select Breads</button>
                     <img src="./img/bread-2.png" alt="icon" height="150px">
                 </div>
@@ -75,6 +77,16 @@
                 </div>
             </div>
             <br><br>
+
+            <!-- <script>
+                ScrollReveal({ reset: true });
+                ScrollReveal().reveal(target, options);
+
+
+                ScrollReveal().reveal('.headline');
+                ScrollReveal().reveal('.headline', { delay: 500 });
+                ScrollReveal().reveal('.headline', { delay: 2000 });
+            </script> -->
             <!-- locat flex -->
 
             <div class="foot">
@@ -82,8 +94,9 @@
                     <p><i class="fa-solid fa-location-dot"></i>Banni ,KartarPura <br>RAWALPINDI</p>
                 </div>
                 <div class="rig">
-                    <p id="fb"><i class="ri-facebook-line"></i></p>
-                    <p id="ins"><i class="ri-instagram-line"></i></p>
+                    <a href="https://www.facebook.com/zainsheikh64?mibextid=ZbWKwL"  target="_blank"><p id="fb"><i class="ri-facebook-line"></i></p>
+                    </a>
+                    <a href="https://www.instagram.com/zain._shk?igsh=MTd5MGJ1dnU1dDlibA==" target="_blank"><p id="ins"><i class="ri-instagram-line"></i></p></a>
                     <p id="twit"><i class="ri-twitter-line"></i></p>
 
                 </div>
@@ -179,7 +192,7 @@
             </div>
 
             <div class="cardflex">
-                <div class="card1 reveal">
+                <div class="card1 reveal" style="border: 1px solid orange;">
                     <img src="./img/favorite-bread-6.png" alt="icon" height="240px">
 
                     <div class="name">
@@ -198,7 +211,7 @@
 
                 </div>
                 <!-- crd 2 -->
-                <div class="card1 reveal">
+                <div class="card1 reveal" >
                     <img src="./img/favorite-bread-4.png" alt="icon" height="240px">
 
                     <div class="name">
@@ -309,73 +322,77 @@
 
     </section>
     <!-- foot -->
-    <footer >
-        <div class="fotimg " id="cont">
-            <div class="head reveal">
-                <h1>Visit Us</h1>
-                <br>
-                <p>Dscover the best bread, we look <br>forward to your visit</p>
-                <br>
-                <div class="but">
-                    <button>See Location</button>
-                </div>
-            </div>
-            <br>
+    <section>
 
-            <div class="divsf reveal" >
-                <div class="div1">
-                    <img src="./img/th.jpg" alt="logo" height="
-                    60px">
-                    <br><br>
-
-                    <h3>We made a best breads <br> in the city</h3>
+        <footer >
+            <div class="fotimg " id="cont">
+                <div class="head reveal">
+                    <h1>Visit Us</h1>
                     <br>
-                    <img id="icon1" src="./img/bread-4.png" alt="" height="100px">
-
-                </div>
-                <div class="div2" id="feet">
-                    <h2>Address</h2>
-                    <p>KartarPura, Banni <br><br>
-                        <i class="ri-map-pin-2-line"></i> 9AM - 1AM
-                    </p>
-                </div>
-                <div class="div3" id="feet">
-                    <h2>Contact Me</h2>
-                    <p><i class="ri-mail-line"></i> zshk599@gmail.com</p> <br>
-                    <p><i class="ri-phone-line"></i> +92-3105312929</p>
-                    <img src="./img/bread-3.png" alt="icon" height="100px">
-
-                </div>
-                <div class="div4" id="feet">
-                    <h2>Follow Me</h2>
-
-                    <div class="rig">
-                        <p id="fb"><i class="ri-facebook-line"></i></p>
-                        <p id="ins"><i class="ri-instagram-line"></i></p>
-                        <p id="twit"><i class="ri-twitter-line"></i></p>
-
+                    <p>Dscover the best bread, we look <br>forward to your visit</p>
+                    <br>
+                    <div class="but">
+                        <button>See Location</button>
                     </div>
-
+                </div>
+                <br>
+    
+                <div class="divsf reveal" >
+                    <div class="div1">
+                        <img src="./img/th.jpg" alt="logo" height="
+                        60px">
+                        <br><br>
+    
+                        <h3>We made a best breads <br> in the city</h3>
+                        <br>
+                        <img id="icon1" src="./img/bread-4.png" alt="" height="100px">
+    
+                    </div>
+                    <div class="div2" id="feet">
+                        <h2>Address</h2>
+                        <p>KartarPura, Banni <br><br>
+                            <i class="ri-map-pin-2-line"></i> 9AM - 1AM
+                        </p>
+                    </div>
+                    <div class="div3" id="feet">
+                        <h2>Contact Me</h2>
+                        <p><i class="ri-mail-line"></i> zshk599@gmail.com</p> <br>
+                        <p><i class="ri-phone-line"></i> +92-3105312929</p>
+                        <img src="./img/bread-3.png" alt="icon" height="100px">
+    
+                    </div>
+                    <div class="div4" id="feet">
+                        <h2>Follow Me</h2>
+    
+                        <div class="rig">
+                            <a href="https://www.facebook.com/zainsheikh64?mibextid=ZbWKwL"  target="_blank"><p id="fb"><i class="ri-facebook-line"></i></p>
+                            </a>
+                            <a href="https://www.instagram.com/zain._shk?igsh=MTd5MGJ1dnU1dDlibA==" target="_blank"><p id="ins"><i class="ri-instagram-line"></i></p></a>
+                            <p id="twit"><i class="ri-twitter-line"></i></p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+    
+    
+                <hr> <br>
+                <div class="scrollup ">
+                    <a href="#home"><i class="ri-arrow-up-line"></i></a>
+                </div>
+             
+    
+                
+                <br>
+                <br>
+                <div class="last " >
+                    <p><i class="ri-copyright-line"></i> | 2024 , ZAIN SHEIKH</p>
                 </div>
             </div>
-
-
-
-            <hr> <br>
-            <div class="scrollup ">
-                <a href="#home"><i class="ri-arrow-up-line"></i></a>
-            </div>
-         
-
-            
-            <br>
-            <br>
-            <div class="last " >
-                <p><i class="ri-copyright-line"></i> | 2024 , ZAIN SHEIKH</p>
-            </div>
-        </div>
-
-    </footer>
+    
+        </footer>
+    </section>
    
 
 </body>
